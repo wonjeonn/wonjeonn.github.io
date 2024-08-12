@@ -65,7 +65,7 @@ const sendEmail = (e) => {
     contactMessage.classList.add('color-red');
     contactMessage.textContent = 'All fields are required.';
   } else {
-    emailjs.sendForm('service_yawov22', 'template_dkcfmy8', '#contact-form', 'PiFfBiwis7Jtox6sK')
+    emailjs.sendForm('service_ml2w7ta', 'template_dkcfmy8', '#contact-form', 'PiFfBiwis7Jtox6sK')
       .then(() => {
         contactMessage.classList.add('color-blue');
         contactMessage.textContent = 'Email sent successfully.';
